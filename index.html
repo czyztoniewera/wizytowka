@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weronika Czyż – CV</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">Weronika Czyż<span class="dot">.</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="nav-links">
+        <a href="#about">O mnie</a>
+        <a href="#skills">Umiejętności</a>
+        <a href="#projects">Projekty</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-circle c1"></div>
+      <div class="hero-circle c2"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-label fade-in delay-1">Studentka aktywnie poszukująca pracy</p>
+      <h1 class="hero-name fade-in delay-2">Weronika Czyż</h1>
+      <h2 class="hero-role fade-in delay-3">
+        <em>Informatyka i Ekonometria</em> &nbsp;·&nbsp; AGH Kraków
+      </h2>
+      <p class="hero-desc fade-in delay-4">
+        Jestem studentką aktywnie poszukującą pracy, aby zdobywać nowe
+        doświadczenie i w praktyce wykorzystywać wiedzę nabywaną na studiach.
+      </p>
+      <div class="hero-btns fade-in delay-5">
+        <a href="#projects" class="btn btn-primary">Zobacz projekty</a>
+        <a href="#contact" class="btn btn-outline">Kontakt</a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint">
+      <span class="arrow-down"></span>
+    </a>
+  </section>
+
+
+  <!-- O MNIE -->
+  <section class="about section-pad" id="about">
+    <div class="container">
+      <h2 class="section-title reveal">O mnie</h2>
+
+      <div class="about-grid">
+
+        <div class="about-image reveal">
+          <div class="avatar-wrap">
+            <div class="avatar-placeholder">
+              <img src="pfp.jpg" alt="Weronika Czyż" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text reveal">
+          <p>
+            Jestem studentką II roku <strong>Informatyki i Ekonometrii</strong> na AGH w Krakowie.
+            Interesuję się analizą danych, finansami i nowymi technologiami.
+            Szukam pracy lub stażu, gdzie będę mogła rozwijać kompetencje
+            zdobyte na studiach i w trakcie dotychczasowych doświadczeń.
+          </p>
+
+          <!-- WYKSZTAŁCENIE -->
+          <div class="cv-section">
+            <h3 class="cv-section-title">🎓 Wykształcenie</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-date">2024 – obecnie</span>
+                <div class="timeline-content">
+                  <strong>Akademia Górniczo-Hutnicza w Krakowie</strong>
+                  <p>Informatyka i Ekonometria (studia dzienne, licencjackie)</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-date">2020 – 2024</span>
+                <div class="timeline-content">
+                  <strong>II Liceum Ogólnokształcące w Krakowie</strong>
+                  <p>Profil menedżersko-ekonomiczny</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DOŚWIADCZENIE -->
+          <div class="cv-section">
+            <h3 class="cv-section-title">💼 Doświadczenie zawodowe</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-date">06.2025 – obecnie</span>
+                <div class="timeline-content">
+                  <strong>Pracownik kawiarni – Katané, Kraków</strong>
+                  <p>
+                    Kompleksowa obsługa klientów oraz praca z kasą fiskalną,
+                    z dbałością o wysoką jakość obsługi i sprawną organizację pracy.
+                    Praca w dynamicznym środowisku pozwoliła mi rozwinąć umiejętności
+                    organizacyjne, dokładność oraz efektywną współpracę w zespole.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-date">02.2026</span>
+                <div class="timeline-content">
+                  <strong>Praktykantka – Urząd Skarbowy Kraków-Stare Miasto</strong>
+                  <p>
+                    Weryfikacja poprawności i kompletności dokumentów oraz analiza
+                    zgodności danych z ewidencją systemową. Wsparcie procesu
+                    archiwizacji dokumentacji i bieżącej pracy działu, zgodnie
+                    z obowiązującymi procedurami i zasadami poufności.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- UMIEJĘTNOŚCI -->
+  <section class="skills section-pad" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">Umiejętności</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <h3>🖥️ Techniczne</h3>
+          <ul class="tag-list">
+            <li class="tag">MS Excel (tabele przestawne, analiza danych)</li>
+            <li class="tag">MS Office (Word, PowerPoint)</li>
+            <li class="tag">Power Apps</li>
+            <li class="tag">R – analiza danych, wizualizacja</li>
+            <li class="tag">Podstawy statystyki</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>🌍 Językowe</h3>
+          <ul class="tag-list">
+            <li class="tag">Angielski – B2+</li>
+            <li class="tag">Niemiecki – A2</li>
+            <li class="tag">Polski – język ojczysty</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>✅ Kompetencje</h3>
+          <ul class="tag-list">
+            <li class="tag">Dokładność i skrupulatność</li>
+            <li class="tag">Dobra organizacja pracy</li>
+            <li class="tag">Umiejętność pracy w zespole</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <h3>⚽ Zainteresowania</h3>
+          <ul class="tag-list">
+            <li class="tag">Piłka nożna</li>
+            <li class="tag">Bieganie</li>
+            <li class="tag">Podróże</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- PROJEKTY -->
+  <section class="projects section-pad" id="projects">
+    <div class="container">
+      <h2 class="section-title reveal">Projekty</h2>
+      <p class="section-sub reveal">Wybrane projekty zrealizowane w trakcie studiów</p>
+
+      <div class="projects-grid projects-grid--3">
+
+        <article class="project-card reveal">
+          <div class="card-img" style="background: var(--card-img-2);">
+            <span class="card-emoji">🌐</span>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">HTML · CSS · JavaScript · jQuery</span>
+            <h3>Portfolio / strona CV</h3>
+            <p>
+              Responsywna strona portfolio wykonana jako projekt zaliczeniowy. Zawiera animacje CSS, scroll reveal,
+              hamburger menu oraz walidację formularza kontaktowego.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="card-img" style="background: var(--card-img-3);">
+            <span class="card-emoji">⚽</span>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">R · EDA · Wizualizacja danych</span>
+            <h3>Analiza wyników Ekstraklasy (1927–2025)</h3>
+            <p>
+              Eksploracyjna analiza danych dotycząca wyników meczów
+              i przewagi własnego boiska na przestrzeni niemal 100 lat rozgrywek.
+              Obejmuje czyszczenie danych, analizę statystyczną i wizualizacje w R.
+            </p>
+            <div class="card-links">
+              <a href="projekt_wdad_Czyz_Weronika.html" target="_blank" class="link-btn">Zobacz raport</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="card-img" style="background: var(--card-img-1);">
+            <span class="card-emoji">📊</span>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">MS Excel · Analiza finansowa</span>
+            <h3>Analiza finansowa Sygnity S.A. (2022-2024)</h3>
+            <p>
+              Kompleksowa analiza finansowa polskiej spółki IT notowanej na giełdzie.
+              Projekt obejmuje analizę aktywów, pasywów, rachunku zysków i strat
+              oraz wskaźnikową z obliczaniem struktury i dynamiki zmian.
+            </p>
+            <div class="card-links">
+              <a href="analizaFinansowa.xlsx" download class="link-btn">Pobierz .xlsx</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- KONTAKT -->
+  <section class="contact section-pad" id="contact">
+    <div class="container">
+      <h2 class="section-title reveal">Kontakt</h2>
+      <p class="section-sub reveal">Zachęcam do kontaktu!</p>
+
+      <div class="contact-wrap">
+
+        <div class="contact-info reveal">
+          <div class="info-item">
+            <span class="info-icon">✉️</span>
+            <div>
+              <strong>E-mail</strong>
+              <p>czyzweronika2806@gmail.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">💼</span>
+            <div>
+              <strong>LinkedIn</strong>
+              <p><a href="https://www.linkedin.com/in/weronika-czyż-0356473b6" target="_blank" style="color:var(--accent)">linkedin.com/in/weronika-czyż</a></p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">📱</span>
+            <div>
+              <strong>Numer telefonu</strong>
+              <p>+48 600 819 355</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- STOPKA -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p>© <span id="year"></span> Weronika Czyż</p>
+        <p class="footer-small gdpr-clause">
+          Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb
+          niezbędnych do realizacji procesu rekrutacji, zgodnie z Rozporządzeniem
+          Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r.
+          (RODO) oraz ustawą z dnia 10 maja 2018 r. o ochronie danych osobowych
+          (Dz.U. 2018 poz. 1000).
+        </p>
+      </div>
+      <div class="footer-clock">
+        <span>🕐</span>
+        <time id="clock">00:00:00</time>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" class="back-to-top">↑</button>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
